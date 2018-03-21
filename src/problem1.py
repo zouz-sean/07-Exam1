@@ -12,13 +12,13 @@ def main():
     run_test_problem1b()
 
 
-###############################################################################
+################################################################################
 # DONE: 2.  READ the doc-string for the   product_of_digits   function below.
 #           Ask your instructor for help if you do not understand it.
 #
 #   Once you are confident that you understand the doc-string
 #   (ignore the code itself!), change the TO-DO for this problem to DONE.
-###############################################################################
+################################################################################
 def product_of_digits(number):
     """
     What comes in:  A positive integer.
