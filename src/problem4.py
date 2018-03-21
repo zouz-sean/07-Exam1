@@ -140,7 +140,7 @@ def problem4(m):
         m_remainder = m % count_k
         if m_remainder == 0:
             count_factor = count_factor + 1
-    actual_count = count_factor - 2 # the two are 1 and the number itself
+    actual_count = count_factor - 2 # the two are 1 and the number itself (trival factors)
 
     return actual_count
     # -------------------------------------------------------------------------
