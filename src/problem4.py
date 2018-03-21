@@ -2,8 +2,8 @@
 Exam 1, problem 4.
 
 Authors: David Mutchler, Dave Fisher, Matt Boutell, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  March 2018.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Zhengxiao Zou.  March 2018.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
@@ -134,8 +134,17 @@ def problem4(m):
       -- problem4(97)   returns 0 because 97 has no non-trivial factors
                                  (i.e., it is prime)
     """
+    count_factor = 0
+    for k in range (m):
+        count_k = k + 1
+        m_remainder = m % count_k
+        if m_remainder == 0:
+            count_factor = count_factor + 1
+    actual_count = count_factor - 2 # the two are 1 and the number itself
+
+    return actual_count
     # -------------------------------------------------------------------------
-    # TODO: 7. Implement and test this function.
+    # DONE: 7. Implement and test this function.
     #          Tests have been written for you (above).
     # -------------------------------------------------------------------------
 
