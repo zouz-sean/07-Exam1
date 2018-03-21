@@ -123,7 +123,7 @@ def problem2(line1, line2, thickness, win):
     rect.outline_thickness = thickness
     rect.attach_to(win)
     # -------------------------------------------------------------------------
-    # TODO: 2. Implement and test this function, TESTING each step as you go.
+    # DONE: 2. Implement and test this function, TESTING each step as you go.
     #          Tests have been written for you (above).
     #   See the IMPORTANT NOTE just above the DEF line above.
     # -------------------------------------------------------------------------
