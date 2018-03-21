@@ -2,14 +2,15 @@
 Exam 1, problem 3.
 
 Authors: David Mutchler, Dave Fisher, Matt Boutell, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  March 2018.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Zhengxiao .  March 2018.
+"""  # : 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
+import math
 
 
 def main():
-    """ Calls the   TEST   functions in this module. """
+    """ Calls the   TEST   funcDONEtions in this module. """
     run_test_problem3()
 
 
@@ -92,6 +93,18 @@ def problem3(rect, n, window):
       :type n:       int
       :type window:  rg.RoseWindow
     """
+    rect.attach_to(window)
+    height = rect.get_height()
+    corner = rect.get_lower_right_corner()
+    x_loc  = corner.x
+    y_loc  = corner.y
+    count  = 0
+    for k in range (n):
+        circle = rg.Circle(rg.Point((x_loc + count*height*math.sin(math.pi/4)),(y_loc + count*height*math.sin(math.pi/4))),height/2)
+        circle.attach_to(window)
+        count = count + 1
+        print(math.sin(45))
+
     # -------------------------------------------------------------------------
     # TODO: 2. Implement and test this function, TESTING each step as you go.
     #          Tests have been written for you (above).
