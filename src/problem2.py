@@ -71,7 +71,7 @@ def run_test_problem2():
     window.close_on_mouse_click()
 
 
-###############################################################################
+################################################################################
 #
 # IMPORTANT:  In the following problem:
 #   -- Write ONLY the code for Step 1 of the Side Effects below.
@@ -80,7 +80,7 @@ def run_test_problem2():
 #        TEST and get it correct.
 #   -- Etc. for Steps 3 and 4, ** ONE AT A TIME. **
 #
-###############################################################################
+################################################################################
 def problem2(line1, line2, thickness, win):
     """
     See   problem2_pictures.pdf   for pictures that may help you
