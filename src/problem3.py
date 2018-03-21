@@ -103,7 +103,6 @@ def problem3(rect, n, window):
         circle = rg.Circle(rg.Point((x_loc + count*height*math.sin(math.pi/4)),(y_loc + count*height*math.sin(math.pi/4))),height/2)
         circle.attach_to(window)
         count = count + 1
-        print(math.sin(45))
 
     # -------------------------------------------------------------------------
     # DONE: 2. Implement and test this function, TESTING each step as you go.
